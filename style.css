@@ -18,9 +18,10 @@ body {
 }
 
 main {
-  background: url(images/background.svg);
-  width: 375px;
-  height: 812px;
+  background: url(images/background.svg) no-repeat center/cover;
+  width: 100vw;
+  height: 100vw;
+  min-height: 812px;
 }
 
 .container {
@@ -86,4 +87,20 @@ ul {
   gap: 0.5rem;
 
   justify-content: center;
+}
+
+#youtube-img:hover {
+  border: 2px solid #EB453D;
+}
+
+#facebook-img:hover {
+  border: 2px solid #4267B2;
+}
+
+#instagram-img:hover {
+  border: 2px solid #DC5562;
+}
+
+#twitter-img:hover {
+  border: 2px solid #32A1F2;
 }
